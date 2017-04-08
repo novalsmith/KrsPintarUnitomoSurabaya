@@ -1,0 +1,45 @@
+---------------------------------
++ Rule Basis Pengetahuan Untuk Setiap semester
+   - Buat Semua Pertanyaan (P)                         | Semuanya digunakan atau dimasukan dala setiap semester
+   - Buat Semua Paket Matakuliah Persemester (PKT)     | untuk pemrosesan data dalam kondisi (IF, ELSEIF).
+   - Buat Semua Runing Background (RB)                 |Sehingga pada Rule di Aplikasi berubah Kondisi (jika_ya,jika_tidak),
+   - Buat Semua Hasil                                  |Data dapat berubah Secara Otomatis
+
+
++ Pertanyaan pada Aplikasi
+  untuk Respon data dalam bentuk YES and NO, dapat di batasi Hanya Id Pertanyaan (P) dan Hasil (H) saja yang
+  tampil, sehingga mahasiswa tidak mengetahui apa proses yang sedang berjalan.
+  Hanya dari Pihak Admin / Pakar yang mengetahui data Tersebut yang berbentuk rule
+
+
++ Kelebihan SKS
+
+  * Kontrak Semester Atas
+    Untuk kontrak semester atas Hanya diperbolehkan Untuk Kontra semester + 1
+    Contoh :
+    Semester aktif adalah 2 dan ditawarkan matakuliah semester 4, 6, dan 8
+    Semester 2 + 2 = 4 ----> Jadi Semester 4 yang akan di tawarkan, Jika Semester 4 sudah tidak memenuhi atau
+                       ----> tidak memenuhi syarat tertentu maka akan di tawarkan semester selanjutnya yaitu : 4+2 = 6
+
+  * Kontrak Semester Bawah
+    semester yang belum lulus di tampilkan semua, berdasarkan semster
+-------------------------------------------------------------------------------------------------------------------
+
+@ Buat untuk dapat hasil SKS untuk semster selanjutnya, Tergantung IPK tergantung semester lalu.
+@ tampilkan matakuliah yang tidak bersyarat : jadi jika sekarang semester 2 dan kelebihan sks, maka di tawarkan semester 4 namun akan di tawarkan matakuliah yang
+
+
+
+--------------------------------------------------------------------------------------
+
+PILIH MATAKULIAH UNTUK SEMESTER SEKARANG JIKA JAWABAN NO ATAU TIDAK UNTUK MEMILIH MATAKULIAH PAKET
+YANG AKAN SECARA OTOMATIS DI BERIKAN SEMESTER SEKARANG DENGAN ASUMSI
+:: ASUMSI ::
+- Tidak tampilkan matakuliah bersyarat (Prasyarat) yang belum lulus
+- Contoh : (Kalkulus 1) tidak lulus :: Maka :: matakuliah ( Kalkulus 2 ) tidak muncul pada semester 2
+
+
+
+kelas Pagi
+jika kelas kosong maka : -> A
+jika total kelas A <=kapasitas maka : ->A
